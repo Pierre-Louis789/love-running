@@ -1,32 +1,48 @@
-/* Google fonts import */
+/* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-* {  margin: 0;
+/* Reset and Base Styles */
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* General styles */
+
 body {
   min-height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  /* Generic project styles */
-  color: #3a3a3a;
   font-family: 'Lato', sans-serif;
-
+  color: #3a3a3a;
 }
 
+/* Header Styles */
 header {
-  background-color: lightcoral;
+  background-color: #ffffff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 2px 4px #3a3a3a;
 }
 
+/* Heading Styles */
 h1 {
   font-family: 'Oswald', sans-serif;
 }
-main{
+
+/* Main Content Styles */
+main {
   background-color: lightblue;
-    flex: 1 0 auto ;
+  flex: 1 0 auto;
+  padding-top: 80px; /* Prevent content from hiding behind fixed header */
 }
 
-footer { background-color: orange;
+/* Footer Styles */
+footer {
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
 }
