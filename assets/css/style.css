@@ -129,3 +129,31 @@ footer {
 
 
 }
+
+/* Media Queries for laptops or upwards  */
+@media screen and (min-width: 992px) {
+  /* a tag Menu */
+    #menu a:hover {
+    border-bottom: 1px solid #3a3a3a ;
+    }
+  }
+
+
+  /* Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  @media screen and (min-width: 768px) {
+    footer {
+      position: relative;
+      padding: 20px;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+  }
