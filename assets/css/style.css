@@ -84,12 +84,6 @@ main {
 
 }
 
-/* Footer Styles */
-footer {
-  background-color: orange;
-  padding: 20px;
-  text-align: center;
-}
 
 /* Media Queries Tablets and larger (768 and up ) */
 @media screen and (min-width: 768px) {
@@ -140,15 +134,21 @@ footer {
 
 
   /* Footer */
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  #social-networks {
     text-align: center;
-    background-color: #f8f8f8;
-    color: #333;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
   }
+  #social-networks i {
+    font-size: 160%;
+    color: #3a3a3a;
+    padding: 5%;
+  }
+  
+
+
   @media screen and (min-width: 768px) {
     footer {
       position: relative;
