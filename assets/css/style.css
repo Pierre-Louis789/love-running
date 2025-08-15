@@ -77,11 +77,14 @@ nav-toggle01 {
 } 
 /* Main Content Styles */
 main {
-  background-color: lightblue;
   flex: 1 0 auto;
-  padding-top: 80px; /* Prevent content from hiding behind fixed header */
-  margin-top: 47px; /* Adjust for header height */
+  margin-top: 80px; /* Adjust for header height */
 
+}/* Hero Section */
+#Hero {
+  height: 600px;
+  width: 100%;
+  background: url('../images/hero-image.webp') no-repeat center center/cover;
 }
 
 
@@ -117,7 +120,8 @@ main {
   /* Main Content */
   main {
     /* Push main content down to accomodate larger header */
-    margin-top: 79%;
+    margin-top: 80px;
+    flex: 1 0 auto;
   }  
   
 
@@ -146,7 +150,7 @@ main {
     color: #3a3a3a;
     padding: 5%;
   }
-  
+
 
 
   @media screen and (min-width: 768px) {
